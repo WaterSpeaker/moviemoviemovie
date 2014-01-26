@@ -62,7 +62,8 @@ with codecs.open(filename,"rt") as my_file:
     print (count_line) 
     print ('\n')
 
-    print ("user number:" + len(voc_user))      
+    print ("user number:" + len(voc_user))    
+    print ("movie number:" +len(voc_movie))    
 
     print ('oldest movie is:') # oldest movie and the name 
     print (oldest_movie_name) 
