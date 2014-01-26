@@ -26,7 +26,7 @@ with codecs.open(filename,"rt") as my_file:
         rate_sum += int(rate) # your method is right. just a naming problem
         std_sum += int(rate)*int(rate)
         for word in userid.strip().split(): 
-            voc_user.add(word) 
+            voc_user.add(word)
   
         for word in movie.strip().split(): 
             voc_movie.add(word) 
